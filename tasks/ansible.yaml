@@ -7,3 +7,8 @@
   apt:
     name: git
     state: latest
+
+- name: Install ping
+  apt:
+    name: iputils-ping
+    state: latest
