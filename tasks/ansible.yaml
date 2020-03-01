@@ -2,3 +2,8 @@
   apt:
     name: ansible
     state: latest
+
+- name: Install Git
+  apt:
+    name: git
+    state: latest
