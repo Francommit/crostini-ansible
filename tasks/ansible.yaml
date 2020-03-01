@@ -12,3 +12,9 @@
   apt:
     name: iputils-ping
     state: latest
+
+- name: Install bash completion
+  apt:
+    name: bash-completion
+    state: latest
+
