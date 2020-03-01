@@ -1,0 +1,4 @@
+- name: Upgrade Ansible
+  apt:
+    name: ansible
+    state: latest
