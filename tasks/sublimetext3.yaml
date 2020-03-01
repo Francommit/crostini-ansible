@@ -1,0 +1,8 @@
+- name: Add SublimeText repo
+  apt_repository:
+    repo: deb https://download.sublimetext.com/ apt/stable/
+
+- name: Install/Upgrade SublimeText
+  apt:
+    name: sublime-text
+    state: latest
