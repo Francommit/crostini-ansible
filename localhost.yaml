@@ -2,4 +2,4 @@
   become: true
 
   tasks:
-   - include: tasks/ansible.yml
+   - include: tasks/ansible.yaml
