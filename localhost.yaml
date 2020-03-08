@@ -3,4 +3,4 @@
 
   tasks:
    - include: tasks/ansible.yaml
-   - include: tasks/sublimetext3.yaml
+   - include: tasks/ohmyzsh.yaml
